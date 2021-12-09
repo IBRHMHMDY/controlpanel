@@ -1,0 +1,12 @@
+html{
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body{
+    font-size: $font-base;
+    line-height: $line-height;
+    color: $color-content;
+    background-color: $color-background;
+    font-family: $font-content;
+}

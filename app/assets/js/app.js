@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Welcome to ControlPanel@1.0.0")})();
