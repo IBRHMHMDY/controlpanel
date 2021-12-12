@@ -1,0 +1,16 @@
+.c-summary{
+    @include e-card;
+    display: inline-flex;
+    align-items: center;
+    padding: spacing("small") spacing("wide");
+}
+
+.c-summary__data{
+    display: flex;
+    flex-direction: column;
+    margin-left: spacing("normal");
+
+    &:last-child{
+        margin-left: spacing("none");
+    }
+}

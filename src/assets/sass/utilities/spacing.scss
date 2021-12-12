@@ -1,7 +1,7 @@
 $spacing-data: (
     none: 0,
-    extra-small: $space-unit * 0.625,
     base: $space-unit,
+    extra-small: $space-unit * 0.625,
     small: $space-unit * 1.25,
     normal: $space-unit * 2,
     wide: $space-unit * 3,
@@ -12,9 +12,9 @@ $spacing-data: (
 @function spacing($variant: base){
     $fetched-value: map-get($spacing-data, $variant);
 
-    @if type-of(fetched-value) == number {
+    @if type-of($fetched-value) == number {
         @return $fetched-value;
     } @else {
-        @error 'Spacing variant not Found';
+        @error 'Spacing Variant Not Found';
     }
 }
