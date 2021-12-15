@@ -11,6 +11,7 @@ module.exports = {
         'assets/js/banner' : './src/assets/js/banner.js',
         'assets/js/tabs' : './src/assets/js/tabs.js',
         'assets/js/upload' : './src/assets/js/upload.js',
+        'assets/js/chart' : './src/assets/js/chart.js',
 
     },
     performance: {
@@ -156,6 +157,11 @@ module.exports = {
             filename: "components/table.html",
             template: "./src/components/table.html",
             chunks: ['app']
+        }),
+        new htmlwebpackplugin({
+            filename: "components/charts.html",
+            template: "./src/components/charts.html",
+            chunks: ['app', 'assets/js/chart']
         }),
         new CleanWebpackPlugin(),
 
