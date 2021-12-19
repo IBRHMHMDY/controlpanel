@@ -5,6 +5,7 @@ $product-img-size: 40px;
     @include e-card;
     width: 100%;
     padding: 0 0 spacing("normal") 0;
+    margin-right: spacing("normal");
 }
 
 .c-table__header{

@@ -3,8 +3,8 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: spacing("normal");
-    width: 100%;
+    padding: spacing("normal")/2 spacing("normal");
+    width: 96%;
 }
 
 .c-card__title{

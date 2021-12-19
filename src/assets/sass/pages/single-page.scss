@@ -1,0 +1,15 @@
+
+
+.page-header{
+    display: flex;
+    align-items: baseline;
+    padding: 0 spacing("normal");
+
+    & .c-btn{
+        margin: 0 spacing();
+    }
+
+    & .c-btn:first-of-type{
+        margin-right: spacing("wide");
+    }
+}
